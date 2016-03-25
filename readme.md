@@ -4,11 +4,13 @@
 
 2. Create .gitconfig
 3. Add the following line to the global .gitconfig:
+
 '''python
 [diff "zip"]
 binary = True
 textconv = python c:/path/to/git_diff_xlsx.py
 '''
+
 4. Create .gitattributes
 5. Add the following line to the repository's .gitattributes
    *.xls diff=zip
