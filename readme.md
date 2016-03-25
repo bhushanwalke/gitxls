@@ -2,7 +2,7 @@
 
 1. Place git_diff_xls.py file in a folder
 2. Create .gitconfig
-3. Add the following line to the global .gitconfig or to .git/conf:
+3. Add the following line to the global .gitconfig or to .git/config:
 
 > [diff "zip"]
 
