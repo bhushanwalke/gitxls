@@ -1,20 +1,3 @@
-# Converts a Microsoft Excel 2007+ file into plain text
-# for comparison using git diff
-#
-# Instructions for setup:
-# 1. Place this file in a folder
-# 2. Add the following line to the global .gitconfig:
-#     [diff "zip"]
-#   	    binary = True
-#	    textconv = python c:/path/to/git_diff_xlsx.py
-# 3. Add the following line to the repository's .gitattributes
-#    *.xlsx diff=zip
-# 4. Now, typing [git diff] at the prompt will produce text versions
-# of Excel .xlsx files
-#
-# Copyright William Usher 2013
-# Contact: w.usher@ucl.ac.uk
-#
 
 import xlrd as xl
 import sys
